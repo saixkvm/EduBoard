@@ -1,0 +1,112 @@
+body {
+    background: #f1f1f1;
+    margin: 0;
+    font-family: "Consolas";
+}
+header {
+    background: #fff;
+}
+header .container 
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: #333;
+    text-decoration: none;
+}
+.pages
+{
+    max-width: 1400px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.container h1{
+    text-decoration: none;
+}
+
+.class_list{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+/* each class div styling */
+.className{ 
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    width: 210px;
+    height: 90px;
+    margin: 6px;
+    padding: 5px;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+.className:hover{
+    background-color: lightgray;
+}
+.no-underline{
+    text-decoration: none;
+}
+
+.button{
+    background-color: transparent;
+    height: 30px;
+    border-radius: 80px;
+    justify-content: center;
+    font: Consolas;
+}
+.button:hover{
+    background-color: lightgrey;
+}
+.taskBody{
+    display: flex;
+    justify-content: space-evenly;
+}
+.createForm button{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.createClass{
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure it takes the full height of its parent */
+}
+.createForm button:hover{
+    background-color: lightgrey;
+}
+.createForm{
+    margin: 10px;
+}
+.taskform{
+    align-items: center;
+    padding: 0px 10px 10px 10px;
+    justify-content: center;
+}
+.taskbutton1{
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+.taskbutton1:hover{
+    background-color: lightgray;
+}
+.taskbutton{
+    border-radius: 20px;
+    height: 30px;
+}
+.taskbutton:hover{
+    background-color: lightgray;
+}
+.taskandbutton{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
